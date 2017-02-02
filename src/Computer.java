@@ -39,6 +39,7 @@ public class Computer {
                 return;
             }
         }
+        System.out.println(username + " ist nicht in der Benutzerdatenbank vorhanden.");
     }
 
     // Abmelden ueber den Benutzer
