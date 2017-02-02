@@ -45,13 +45,6 @@ public class Computer {
     // Abmelden ueber den Benutzer
     public void abmelden(Loginable user){
 
-        /*for (Loginable loginable : this.user) {
-            if(loginable == user ){
-                this.abmelden(user.getLogin().benutzername);
-                return;
-            }
-        }*/
-
         this.loggedInUser.remove(user);
         System.out.println(user.getLogin().benutzername + " wurde direkt abgemeldet");
 
